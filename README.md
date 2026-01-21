@@ -8,3 +8,10 @@ Les membres de ce projet sont :
   - Lucas JENOT (lujenot-prog)
   - Rayan BOUKHEZZA (Rayanboukhezza)
   - Benoît MEUNIER (Benoit1020)
+
+## Setup (Python)
+```bash
+cd Script
+python -m venv .venv
+source .venv/bin/activate  # mac/linux
+pip install -r requirements.txt
