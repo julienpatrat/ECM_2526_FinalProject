@@ -14,3 +14,7 @@ env/
 
 # OS
 .DS_Store
+Data/processed/
+models/
+__pycache__/
+.ipynb_checkpoints/
