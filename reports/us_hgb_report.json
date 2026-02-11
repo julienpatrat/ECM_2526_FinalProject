@@ -1,0 +1,23 @@
+{
+  "model": "HistGradientBoosting + sigmoid calibration",
+  "val": {
+    "roc_auc": 0.847438831852528,
+    "pr_auc": 0.3561157617342752,
+    "brier": 0.03650322331658935,
+    "mean_prob": 0.046882827875767356,
+    "positive_rate": 0.046882459658168625
+  },
+  "test": {
+    "roc_auc": 0.8394826241479827,
+    "pr_auc": 0.19492283211365657,
+    "brier": 0.02412757285006837,
+    "mean_prob": 0.05082277800771863,
+    "positive_rate": 0.023367529718286924
+  },
+  "n_features": 19,
+  "sizes": {
+    "train": 55927,
+    "val": 10473,
+    "test": 12282
+  }
+}

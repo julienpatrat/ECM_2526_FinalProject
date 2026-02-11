@@ -1,0 +1,35 @@
+{
+  "raw_path": "Data/source/us/american_bankruptcy_dataset.csv",
+  "rows": 78682,
+  "n_features": 19,
+  "year_min": 1999,
+  "year_max": 2018,
+  "positive_rate": 0.06634300094049465,
+  "target_value_counts": {
+    "0": 73462,
+    "1": 5220
+  },
+  "company_id_col_used": "company_name",
+  "detected_cols": {
+    "year": "fyear",
+    "target": "status_label",
+    "company_id": "company_name"
+  },
+  "feature_preview": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9",
+    "X10",
+    "X11",
+    "X12",
+    "X13",
+    "X14",
+    "X15"
+  ]
+}

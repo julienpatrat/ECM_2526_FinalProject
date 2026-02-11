@@ -18,3 +18,23 @@ Data/processed/
 models/
 __pycache__/
 .ipynb_checkpoints/
+
+# Keep source code in Script/src/models (only ignore root models/ artifacts)
+!Script/src/models/
+!Script/src/models/*.py
+!Script/src/models/**
+
+# Keep reports tracked
+!reports/
+!reports/*.json
+!reports/*.md
+
+# Keep source code in Script/src/models (only ignore root models/ artifacts)
+!Script/src/models/
+!Script/src/models/*.py
+!Script/src/models/**
+
+# Keep reports tracked
+!reports/
+!reports/*.json
+!reports/*.md
