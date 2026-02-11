@@ -1,0 +1,83 @@
+{
+  "base": {
+    "val": {
+      "roc_auc": 0.7098263204032434,
+      "pr_auc": 0.10013176427727548
+    },
+    "test": {
+      "roc_auc": 0.7216537913653298,
+      "pr_auc": 0.1130638579306727
+    }
+  },
+  "chosen_thresholds": {
+    "best_f1_on_val": {
+      "val": {
+        "threshold": 0.66,
+        "precision": 0.16326530612244897,
+        "recall": 0.2962962962962963,
+        "f1": 0.21052631578947367,
+        "confusion_matrix": [
+          [
+            1270,
+            82
+          ],
+          [
+            38,
+            16
+          ]
+        ]
+      },
+      "test": {
+        "threshold": 0.66,
+        "precision": 0.11764705882352941,
+        "recall": 0.18518518518518517,
+        "f1": 0.14388489208633093,
+        "confusion_matrix": [
+          [
+            1277,
+            75
+          ],
+          [
+            44,
+            10
+          ]
+        ]
+      }
+    },
+    "best_precision_with_recall>=0.80_on_val": {
+      "val": {
+        "threshold": 0.44,
+        "precision": 0.05986394557823129,
+        "recall": 0.8148148148148148,
+        "f1": 0.11153358681875793,
+        "confusion_matrix": [
+          [
+            661,
+            691
+          ],
+          [
+            10,
+            44
+          ]
+        ]
+      },
+      "test": {
+        "threshold": 0.44,
+        "precision": 0.06111111111111111,
+        "recall": 0.8148148148148148,
+        "f1": 0.11369509043927649,
+        "confusion_matrix": [
+          [
+            676,
+            676
+          ],
+          [
+            10,
+            44
+          ]
+        ]
+      }
+    },
+    "best_recall_with_precision>=0.20_on_val": null
+  }
+}
