@@ -10,9 +10,9 @@ Ce document résume l’**exploration des données (EDA)** réalisée avant mod�
 ### Points clés
 - Polish : taux de faillite ≈ **3.86%** sur **7,027** lignes.
 - USA: taux de faillite ≈ **6.63%** sur **78,682** lignes.
-- **Missing (moyenne globale)** : Polish ≈ **1.28%**, USA ≈ **0.00%**.
-- Les distributions des variables montrent des **asymétries** (queues lourdes) : modèles robustes + calibration utiles.
-- USA : on observe un **drift temporel** (taux de faillite par année) → split temporel pertinent.
+- Valeurs manquantes en moyenne : Polish ≈ **1.28%**, USA ≈ **0.00%**.
+- Les distributions des variables montrent des asymétries : modèles robustes + calibration utiles.
+- On observe un drift temporel pour les USA, le taux de faillite varie significativement chaque année.
 
 ## 2) Cible (faillite)
 ### Polish
