@@ -38,3 +38,6 @@ __pycache__/
 !reports/
 !reports/*.json
 !reports/*.md
+
+# Raw datasets (do not version)
+Data/source/us/
