@@ -41,21 +41,6 @@ Ce document résume l’**exploration des données (EDA)** réalisée avant mod�
 
 ![](polish_missing_top20.png)
 
-### USA — Top features les plus manquantes
-| feature    |   missing_% |
-|:-----------|------------:|
-| company_id |           0 |
-| year       |           0 |
-| class      |           0 |
-| X1         |           0 |
-| X2         |           0 |
-| X3         |           0 |
-| X4         |           0 |
-| X5         |           0 |
-| X6         |           0 |
-| X7         |           0 |
-
-![](usa_missing_top20.png)
 
 ## 4) Distributions & séparation faillite / non-faillite
 ### Polish — Exemples (Attr1..Attr6)
