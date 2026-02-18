@@ -8,9 +8,9 @@ Ce document résume l’exploration des données (EDA) réalisée avant modélis
 | USA            |  78682 |     22 |               6.634 |             0     |
 
 ### Points clés
-- Polish : taux de faillite ≈ **3.86%** sur **7,027** lignes.
-- USA: taux de faillite ≈ **6.63%** sur **78,682** lignes.
-- Valeurs manquantes en moyenne : Polish ≈ **1.28%**, USA ≈ **0.00%**.
+- Polish : taux de faillite : **3.86%** sur **7,027** lignes.
+- USA: taux de faillite : **6.63%** sur **78,682** lignes.
+- Valeurs manquantes en moyenne : Polish : **1.28%**, USA : **0.00%**.
 - Les distributions des variables montrent des asymétries.
 - On observe un drift temporel pour les USA, le taux de faillite varie significativement chaque année.
 
