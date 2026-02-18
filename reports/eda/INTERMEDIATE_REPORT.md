@@ -1,5 +1,5 @@
 # Rendu intermédiaire — EDA (Polish & USA)
-Ce document résume l’**exploration des données (EDA)** réalisée avant modélisation : qualité des données, cible, valeurs manquantes, distributions et premiers signaux.
+Ce document résume l’exploration des données (EDA) réalisée avant modélisation : qualité des données, cible, valeurs manquantes, distributions et premiers signaux.
 
 ## 1) Vue d’ensemble
 | Dataset        |   Rows |   Cols |   Positive rate (%) |   Missing avg (%) |
@@ -94,7 +94,7 @@ Ce document résume l’**exploration des données (EDA)** réalisée avant mod�
 ![](usa_box_X6.png)
 
 ## 5) Corrélations (top paires)
-Les corrélations élevées indiquent une possible **multicolinéarité** (important pour logreg) et confirment l’intérêt de modèles capables de gérer des interactions/non-linéarités.
+Les corrélations élevées indiquent une possible multicolinéarité ( ce qui est important pour une régression logistique) et confirment l’intérêt de modèles capables de gérer des interactions/non-linéarités.
 
 ### Polish — Top corrélations
 | var1   | var2   |   abs_corr |
@@ -135,7 +135,7 @@ Les corrélations élevées indiquent une possible **multicolinéarité** (impor
 | X2     | X4     |   0.651055 |
 
 ## 6) Conclusion intermédiaire
-- Les deux datasets sont **exploitables** pour une prédiction de faillite.
-- La cible est **déséquilibrée** → PR-AUC, calibration, et risk buckets sont adaptés.
-- USA : présence d’un **axe temporel** → split temporel recommandé (déjà intégré).
-- Prochaine étape : entraînement, calibration, interprétation (importance variables / SHAP) et comparaison modèles.
+- Les deux datasets sont exploitables pour une prédiction de faillite.
+- La cible est déséquilibrée: les métriques PR-AUC, calibration et risk buckets sont adaptées.
+- La présence d’un axe temporel pour le dataset des USA implique le besoin d'un split temporel.
+- Prochaines étapes : finir l'entraînement, la calibration et l'interprétation des données et comparer les modèles.
